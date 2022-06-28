@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#heart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.heart_outline {
+  display: flex;
+  position: relative;
+  height: 200px;
+}
+
+.heartbeat {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+
+li:first-child {
+  background-color: red;
+  animation: dance1 3s 0s infinite;
+}
+
+li:nth-child(2) {
+  background-color: red;
+  animation: dance2 3s 0.1s infinite;
+}
+
+li:nth-child(3) {
+  background-color: red;
+  animation: dance3 3s 0.2s infinite;
+}
+
+li:nth-child(4) {
+  background-color: red;
+  animation: dance4 3s 0.3s infinite;
+}
+
+li:nth-child(5) {
+  background-color: red;
+  animation: dance5 3s 0.4s infinite;
+}
+
+li:nth-child(6) {
+  background-color: red;
+  animation: dance4 3s 0.5s infinite;
+}
+
+li:nth-child(7) {
+  background-color: red;
+  animation: dance3 3s 0.6s infinite;
+}
+
+li:nth-child(8) {
+  background-color: red;
+  animation: dance2 3s 0.7s infinite;
+}
+
+li:last-child {
+  background-color: red;
+  animation: dance1 3s 0.8s infinite;
+}
+
+@keyframes dance1 {
+  30%,
+  50% {
+    height: 60px;
+    transform: translateY(-30px);
+  }
+  70%,
+  100% {
+    height: 20px;
+    transform: translateY(0);
+  }
+}
+
+@keyframes dance2 {
+  30%,
+  50% {
+    height: 130px;
+    transform: translateY(-65px);
+  }
+
+  70%,
+  100% {
+    height: 20px;
+    transform: translateY(0);
+  }
+}
+
+@keyframes dance3 {
+  30%,
+  50% {
+    height: 170px;
+    transform: translateY(-85px);
+  }
+
+  70%,
+  100% {
+    height: 20px;
+    transform: translateY(0);
+  }
+}
+
+@keyframes dance4 {
+  30%,
+  50% {
+    height: 180px;
+    transform: translateY(-65px);
+  }
+
+  70%,
+  100% {
+    height: 20px;
+    transform: translateY(0);
+  }
+}
+
+@keyframes dance5 {
+  30%,
+  50% {
+    height: 200px;
+    transform: translateY(-45px);
+  }
+
+  70%,
+  100% {
+    height: 20px;
+    transform: translateY(0);
+  }
+}
