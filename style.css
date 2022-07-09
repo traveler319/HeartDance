@@ -20,7 +20,7 @@
 .heartbeat {
   width: 20px;
   height: 20px;
-  border-radius: 50%;
+  border-radius: 10px;
   margin: 0 10px;
 }
 
@@ -99,8 +99,8 @@ li:last-child {
 @keyframes dance3 {
   30%,
   50% {
-    height: 170px;
-    transform: translateY(-85px);
+    height: 180px;
+    transform: translateY(-90px);
   }
 
   70%,
@@ -113,7 +113,7 @@ li:last-child {
 @keyframes dance4 {
   30%,
   50% {
-    height: 180px;
+    height: 190px;
     transform: translateY(-65px);
   }
 
